@@ -1867,8 +1867,8 @@ design rules under a new name.</description>
 <element name="JP9" library="jumper" package="JP4" value="AINvdd" x="20.545" y="10.605" rot="R270"/>
 <element name="JP10" library="jumper" package="JP4" value="AINgnd" x="17.37" y="10.605" rot="R270"/>
 <element name="JP11" library="jumper" package="JP4" value="AINvss" x="14.195" y="10.605" rot="R270"/>
-<element name="JP12" library="jumper" package="JP2" value="PWR1" x="2.445" y="8.51" rot="R90"/>
-<element name="JP13" library="jumper" package="JP1" value="PWR2" x="2.445" y="21.41" rot="R180"/>
+<element name="JP12" library="jumper" package="JP2" value="PWR1" x="2.5" y="8.5" rot="R90"/>
+<element name="JP13" library="jumper" package="JP1" value="PWR2" x="2.5" y="21.5" rot="R180"/>
 <element name="U1" library="adc-ti" package="QFP50P1200X1200X120-64N" value="ADS1194CPAG" x="36.75" y="12.5">
 <attribute name="PACKAGE" value="TQFP-64" x="36.75" y="12.5" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="13T1868" x="36.75" y="12.5" size="1.778" layer="27" display="off"/>
@@ -2036,7 +2036,7 @@ design rules under a new name.</description>
 <contactref element="U1" pad="49"/>
 <contactref element="U1" pad="51"/>
 <contactref element="U1" pad="31"/>
-<wire x1="2.445" y1="22.68" x2="12.75" y2="22.68" width="0.6096" layer="1"/>
+<wire x1="2.5" y1="22.77" x2="12.75" y2="22.68" width="0.6096" layer="1"/>
 <wire x1="12.75" y1="22.68" x2="15.93" y2="22.68" width="0.6096" layer="1"/>
 <wire x1="15.93" y1="22.68" x2="17.045" y2="23.795" width="0.6096" layer="1"/>
 <wire x1="17.045" y1="23.795" x2="18.2" y2="23.795" width="0.6096" layer="1"/>
@@ -2128,14 +2128,14 @@ design rules under a new name.</description>
 <contactref element="JP12" pad="3"/>
 <wire x1="4.315" y1="13.845" x2="4.235" y2="13.845" width="0.6096" layer="1"/>
 <wire x1="4.235" y1="13.845" x2="4.235" y2="11.04" width="0.6096" layer="1"/>
-<wire x1="2.445" y1="11.05" x2="4.235" y2="11.05" width="0.6096" layer="1"/>
+<wire x1="2.5" y1="11.04" x2="4.235" y2="11.05" width="0.6096" layer="1"/>
 <wire x1="4.235" y1="11.05" x2="4.235" y2="11.04" width="0.6096" layer="1"/>
 </signal>
 <signal name="-2V5/1">
 <contactref element="L2" pad="1"/>
 <contactref element="C16" pad="2"/>
 <contactref element="JP12" pad="1"/>
-<wire x1="2.445" y1="5.97" x2="4.235" y2="5.97" width="0.6096" layer="1"/>
+<wire x1="2.5" y1="5.96" x2="4.235" y2="5.97" width="0.6096" layer="1"/>
 <wire x1="4.235" y1="5.97" x2="4.235" y2="5.865" width="0.6096" layer="1"/>
 <wire x1="4.235" y1="5.865" x2="4.095" y2="5.865" width="0.6096" layer="1"/>
 <wire x1="4.095" y1="5.865" x2="4.095" y2="3.22" width="0.6096" layer="1"/>
@@ -2184,7 +2184,7 @@ design rules under a new name.</description>
 <contactref element="C23" pad="1"/>
 <contactref element="L3" pad="1"/>
 <contactref element="JP13" pad="2"/>
-<wire x1="2.445" y1="20.14" x2="12.75" y2="20.14" width="0.6096" layer="1"/>
+<wire x1="2.5" y1="20.23" x2="12.75" y2="20.14" width="0.6096" layer="1"/>
 <wire x1="12.75" y1="20.14" x2="13.25" y2="20.14" width="0.6096" layer="1"/>
 <wire x1="13.25" y1="20.14" x2="14.23" y2="20.14" width="0.6096" layer="1"/>
 <wire x1="14.23" y1="20.14" x2="14.845" y2="19.525" width="0.6096" layer="1"/>
@@ -2232,7 +2232,7 @@ design rules under a new name.</description>
 <wire x1="10.165" y1="15.13" x2="10" y2="15.13" width="0.6096" layer="1"/>
 <wire x1="10" y1="15.13" x2="10" y2="12.55" width="0.6096" layer="1"/>
 <wire x1="10" y1="12.55" x2="10" y2="7.68" width="0.6096" layer="1"/>
-<wire x1="2.445" y1="8.51" x2="4.235" y2="8.51" width="0.6096" layer="1"/>
+<wire x1="2.5" y1="8.5" x2="4.235" y2="8.51" width="0.6096" layer="1"/>
 <wire x1="7.875" y1="12.55" x2="10" y2="12.55" width="0.6096" layer="1"/>
 <wire x1="12.5" y1="15.75" x2="11.57" y2="15.13" width="0.6096" layer="1"/>
 <wire x1="12.5" y1="15.75" x2="16.5" y2="15.75" width="0.6096" layer="1"/>
