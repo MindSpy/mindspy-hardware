@@ -14801,7 +14801,7 @@ Source: con-hirose.lbr from Bob Starr &amp;lt;rtzaudio@mindspring.com&amp;gt;</d
 <pinref part="X1" gate="DF9" pin="10"/>
 </segment>
 </net>
-<net name="TESTP" class="0">
+<net name="TEST_P" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="TESTP_PACE_OUT1"/>
 <wire x1="68.58" y1="35.56" x2="71.12" y2="38.1" width="0.1524" layer="91"/>
@@ -14812,7 +14812,7 @@ Source: con-hirose.lbr from Bob Starr &amp;lt;rtzaudio@mindspring.com&amp;gt;</d
 <pinref part="X1" gate="DF9" pin="28"/>
 </segment>
 </net>
-<net name="TESTN" class="0">
+<net name="TEST_N" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="TESTN_PACE_OUT2"/>
 <wire x1="71.12" y1="35.56" x2="73.66" y2="38.1" width="0.1524" layer="91"/>
