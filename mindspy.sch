@@ -13907,7 +13907,6 @@ Source: con-hirose.lbr from Bob Starr &amp;lt;rtzaudio@mindspring.com&amp;gt;</d
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0402"/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R0402"/>
 <part name="C2" library="rcl" deviceset="CPOL-EU" device="SMCA" value="10u"/>
-<part name="L3" library="fabhack" deviceset="L1210" device="" value="10u"/>
 <part name="X4" library="jumper" deviceset="JP3QE" device=""/>
 <part name="SUPPLY1" library="supply2" deviceset="VSS" device="" value="AVSS"/>
 <part name="L4" library="fabhack" deviceset="L1210" device="" value="10u"/>
@@ -13930,7 +13929,7 @@ Source: con-hirose.lbr from Bob Starr &amp;lt;rtzaudio@mindspring.com&amp;gt;</d
 <instance part="C1" gate="G$1" x="147.32" y="132.08"/>
 <instance part="C3" gate="G$1" x="170.18" y="132.08"/>
 <instance part="C4" gate="G$1" x="198.12" y="144.78"/>
-<instance part="SUPPLY7" gate="G$1" x="147.32" y="93.98"/>
+<instance part="SUPPLY7" gate="G$1" x="147.32" y="104.14"/>
 <instance part="SUPPLY10" gate="G$1" x="147.32" y="149.86"/>
 <instance part="SUPPLY8" gate="G$1" x="213.36" y="121.92"/>
 <instance part="SUPPLY9" gate="G$1" x="213.36" y="149.86"/>
@@ -13984,7 +13983,6 @@ Source: con-hirose.lbr from Bob Starr &amp;lt;rtzaudio@mindspring.com&amp;gt;</d
 <instance part="R1" gate="G$1" x="205.74" y="142.24" rot="MR90"/>
 <instance part="R2" gate="G$1" x="205.74" y="132.08" rot="MR90"/>
 <instance part="C2" gate="G$1" x="213.36" y="132.08"/>
-<instance part="L3" gate="G$1" x="154.94" y="101.6" rot="R90"/>
 <instance part="X4" gate="-1" x="190.5" y="109.22" rot="R270"/>
 <instance part="X4" gate="-2" x="177.8" y="109.22" rot="R270"/>
 <instance part="X4" gate="-3" x="137.16" y="132.08" rot="R90"/>
@@ -14060,13 +14058,11 @@ Source: con-hirose.lbr from Bob Starr &amp;lt;rtzaudio@mindspring.com&amp;gt;</d
 <pinref part="SJ12" gate="1" pin="2"/>
 <pinref part="SUPPLY7" gate="G$1" pin="DGND"/>
 <pinref part="L2" gate="G$1" pin="1"/>
-<wire x1="147.32" y1="101.6" x2="147.32" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="106.68" x2="147.32" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="109.22" x2="147.32" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="116.84" x2="147.32" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="124.46" x2="147.32" y2="124.46" width="0.1524" layer="91"/>
 <junction x="147.32" y="124.46"/>
-<pinref part="L3" gate="G$1" pin="1"/>
-<junction x="147.32" y="101.6"/>
 <pinref part="X4" gate="-3" pin="1"/>
 <wire x1="142.24" y1="124.46" x2="142.24" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="132.08" x2="139.7" y2="132.08" width="0.1524" layer="91"/>
@@ -14075,7 +14071,6 @@ Source: con-hirose.lbr from Bob Starr &amp;lt;rtzaudio@mindspring.com&amp;gt;</d
 <junction x="147.32" y="116.84"/>
 <pinref part="L5" gate="G$1" pin="1"/>
 <junction x="147.32" y="109.22"/>
-<wire x1="147.32" y1="101.6" x2="147.32" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="DAISY_IN"/>
@@ -14308,14 +14303,11 @@ Source: con-hirose.lbr from Bob Starr &amp;lt;rtzaudio@mindspring.com&amp;gt;</d
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="205.74" y1="127" x2="205.74" y2="124.46" width="0.1524" layer="91"/>
 <junction x="205.74" y="124.46"/>
-<pinref part="L3" gate="G$1" pin="2"/>
-<wire x1="162.56" y1="101.6" x2="162.56" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="L4" gate="G$1" pin="2"/>
 <wire x1="162.56" y1="109.22" x2="162.56" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="116.84" x2="162.56" y2="124.46" width="0.1524" layer="91"/>
 <junction x="162.56" y="116.84"/>
 <pinref part="L5" gate="G$1" pin="2"/>
-<junction x="162.56" y="109.22"/>
 <pinref part="IC2" gate="G$2" pin="GND@1"/>
 <wire x1="190.5" y1="134.62" x2="187.96" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$2" pin="GND"/>
