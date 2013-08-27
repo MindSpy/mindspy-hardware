@@ -14,8 +14,8 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
@@ -23,9 +23,9 @@
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
@@ -37,15 +37,15 @@
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -121,6 +121,10 @@
 <wire x1="45.7075" y1="0" x2="45.7075" y2="50.79" width="0" layer="20"/>
 <wire x1="45.7075" y1="50.79" x2="0" y2="50.79" width="0" layer="20"/>
 <wire x1="0" y1="50.79" x2="0" y2="0" width="0" layer="20"/>
+<text x="42.545" y="14.9225" size="1.778" layer="48" font="vector" rot="R90">MindSpy</text>
+<text x="43.4975" y="14.9225" size="0.6096" layer="48" font="vector" rot="R90">ver. 0.1</text>
+<circle x="14.605" y="34.925" radius="0.3175" width="0.254" layer="48"/>
+<circle x="12.065" y="14.605" radius="0.3175" width="0.254" layer="48"/>
 </plain>
 <libraries>
 <library name="fabhack">
@@ -2326,11 +2330,11 @@ design rules under a new name.</description>
 <contactref element="L5" pad="1"/>
 <via x="15.24" y="43.18" extent="1-16" drill="0.4" diameter="0.6096" shape="octagon"/>
 <via x="20.955" y="43.18" extent="1-16" drill="0.4" diameter="0.6096" shape="octagon"/>
-<via x="31.75" y="8.89" extent="1-16" drill="0.4" diameter="0.6096" shape="octagon"/>
+<via x="32.385" y="8.89" extent="1-16" drill="0.4" diameter="0.6096" shape="octagon"/>
 <via x="25.4" y="35.8775" extent="1-16" drill="0.4" diameter="0.6096" shape="octagon"/>
 <via x="2.54" y="43.18" extent="1-16" drill="0.4" diameter="0.6096" shape="octagon"/>
-<via x="27.6225" y="8.89" extent="1-16" drill="0.4" diameter="0.6096" shape="octagon"/>
-<via x="36.83" y="8.89" extent="1-16" drill="0.4" diameter="0.6096" shape="octagon"/>
+<via x="27.94" y="8.89" extent="1-16" drill="0.4" diameter="0.6096" shape="octagon"/>
+<via x="36.5125" y="8.89" extent="1-16" drill="0.4" diameter="0.6096" shape="octagon"/>
 <via x="30.48" y="41.91" extent="1-16" drill="0.4" diameter="0.6096" shape="octagon"/>
 <via x="13.6525" y="10.16" extent="1-16" drill="0.4" diameter="0.6096" shape="octagon"/>
 <wire x1="22.3" y1="24.78" x2="22.3" y2="24.055" width="0.254" layer="1"/>

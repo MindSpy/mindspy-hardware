@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,18 +39,18 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -15303,11 +15303,6 @@ Source: con-hirose.lbr from Bob Starr &amp;lt;rtzaudio@mindspring.com&amp;gt;</d
 <pinref part="SJ13" gate="1" pin="1"/>
 </segment>
 </net>
-<net name="N$17" class="0">
-<segment>
-<wire x1="58.42" y1="101.6" x2="55.88" y2="101.6" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$22" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="IN"/>
@@ -15411,6 +15406,122 @@ Source: con-hirose.lbr from Bob Starr &amp;lt;rtzaudio@mindspring.com&amp;gt;</d
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,99.06,106.68,IC1,AVSS1,AVSS,,,"/>
+<approved hash="104,1,96.52,106.68,IC1,AVDD1,AVDD,,,"/>
+<approved hash="204,1,195.58,17.78,X2,RST,,,,"/>
+<approved hash="204,1,195.58,12.7,X2,GND2,,,,"/>
+<approved hash="104,1,190.5,142.24,IC2,GND,AVSS,,,"/>
+<approved hash="208,1,83.82,142.24,AVDD,sup,,,,"/>
+<approved hash="208,1,27.94,38.1,AVDD,sup,,,,"/>
+<approved hash="208,1,213.36,147.32,AVDD,sup,,,,"/>
+<approved hash="208,1,190.5,147.32,AVDD,out,,,,"/>
+<approved hash="208,1,60.96,12.7,AVDD,sup,,,,"/>
+<approved hash="208,1,185.42,109.22,AVDD,sup,,,,"/>
+<approved hash="209,1,76.2,106.68,RLDIN,,,,,"/>
+<approved hash="106,1,76.2,106.68,RLDIN,,,,,"/>
+<approved hash="106,1,78.74,106.68,RLDINV,,,,,"/>
+<approved hash="106,1,73.66,106.68,RLDOUT,,,,,"/>
+<approved hash="209,1,81.28,106.68,RLDREF,,,,,"/>
+<approved hash="106,1,81.28,106.68,RLDREF,,,,,"/>
+<approved hash="211,1,15.24,35.56,DGND,BUS,,,,"/>
+<approved hash="211,1,127,71.12,DGND,BUS,,,,"/>
+<approved hash="211,1,127,68.58,SCLK,BUS,,,,"/>
+<approved hash="211,1,162.56,76.2,SCLK,BUS,,,,"/>
+<approved hash="211,1,127,66.04,!CS,BUS,,,,"/>
+<approved hash="211,1,12.7,127,!CS,BUS,,,,"/>
+<approved hash="211,1,127,76.2,MISO,BUS,,,,"/>
+<approved hash="211,1,162.56,71.12,MISO,BUS,,,,"/>
+<approved hash="211,1,127,53.34,MOSI,BUS,,,,"/>
+<approved hash="211,1,162.56,68.58,MOSI,BUS,,,,"/>
+<approved hash="211,1,127,86.36,!DRDY,BUS,,,,"/>
+<approved hash="211,1,162.56,43.18,!DRDY,BUS,,,,"/>
+<approved hash="211,1,127,83.82,GPIO4,BUS,,,,"/>
+<approved hash="211,1,198.12,63.5,GPIO4,BUS,,,,"/>
+<approved hash="211,1,127,81.28,GPIO3,BUS,,,,"/>
+<approved hash="211,1,162.56,40.64,GPIO3,BUS,,,,"/>
+<approved hash="211,1,127,78.74,GPIO2,BUS,,,,"/>
+<approved hash="211,1,198.12,66.04,GPIO2,BUS,,,,"/>
+<approved hash="211,1,127,73.66,GPIO1,BUS,,,,"/>
+<approved hash="211,1,198.12,40.64,GPIO1,BUS,,,,"/>
+<approved hash="211,1,127,58.42,!RESET,BUS,,,,"/>
+<approved hash="211,1,162.56,66.04,!RESET,BUS,,,,"/>
+<approved hash="211,1,127,55.88,!PWDN,BUS,,,,"/>
+<approved hash="211,1,162.56,30.48,!PWDN,BUS,,,,"/>
+<approved hash="211,1,127,63.5,START,BUS,,,,"/>
+<approved hash="211,1,162.56,63.5,START,BUS,,,,"/>
+<approved hash="211,1,22.86,35.56,AVSS,BUS,,,,"/>
+<approved hash="211,1,12.7,50.8,AVSS,BUS,,,,"/>
+<approved hash="211,1,12.7,53.34,AVSS,BUS,,,,"/>
+<approved hash="211,1,12.7,55.88,AVSS,BUS,,,,"/>
+<approved hash="211,1,12.7,58.42,AVSS,BUS,,,,"/>
+<approved hash="211,1,12.7,60.96,AVSS,BUS,,,,"/>
+<approved hash="211,1,25.4,35.56,AVDD,BUS,,,,"/>
+<approved hash="211,1,12.7,73.66,AVDD,BUS,,,,"/>
+<approved hash="211,1,12.7,71.12,AVDD,BUS,,,,"/>
+<approved hash="211,1,12.7,68.58,AVDD,BUS,,,,"/>
+<approved hash="211,1,12.7,66.04,AVDD,BUS,,,,"/>
+<approved hash="211,1,12.7,63.5,AVDD,BUS,,,,"/>
+<approved hash="211,1,53.34,88.9,AIN8_N,BUS,,,,"/>
+<approved hash="211,1,33.02,50.8,AIN8_N,BUS,,,,"/>
+<approved hash="211,1,53.34,86.36,AIN8_P,BUS,,,,"/>
+<approved hash="211,1,33.02,53.34,AIN8_P,BUS,,,,"/>
+<approved hash="211,1,53.34,83.82,AIN7_N,BUS,,,,"/>
+<approved hash="211,1,33.02,55.88,AIN7_N,BUS,,,,"/>
+<approved hash="211,1,53.34,81.28,AIN7_P,BUS,,,,"/>
+<approved hash="211,1,33.02,58.42,AIN7_P,BUS,,,,"/>
+<approved hash="211,1,53.34,78.74,AIN6_N,BUS,,,,"/>
+<approved hash="211,1,33.02,60.96,AIN6_N,BUS,,,,"/>
+<approved hash="211,1,53.34,76.2,AIN6_P,BUS,,,,"/>
+<approved hash="211,1,33.02,63.5,AIN6_P,BUS,,,,"/>
+<approved hash="211,1,53.34,73.66,AIN5_N,BUS,,,,"/>
+<approved hash="211,1,33.02,66.04,AIN5_N,BUS,,,,"/>
+<approved hash="211,1,53.34,71.12,AIN5_P,BUS,,,,"/>
+<approved hash="211,1,33.02,68.58,AIN5_P,BUS,,,,"/>
+<approved hash="211,1,53.34,68.58,AIN4_N,BUS,,,,"/>
+<approved hash="211,1,33.02,71.12,AIN4_N,BUS,,,,"/>
+<approved hash="211,1,53.34,66.04,AIN4_P,BUS,,,,"/>
+<approved hash="211,1,33.02,73.66,AIN4_P,BUS,,,,"/>
+<approved hash="211,1,53.34,63.5,AIN3_N,BUS,,,,"/>
+<approved hash="211,1,33.02,76.2,AIN3_N,BUS,,,,"/>
+<approved hash="211,1,53.34,60.96,AIN3_P,BUS,,,,"/>
+<approved hash="211,1,33.02,78.74,AIN3_P,BUS,,,,"/>
+<approved hash="211,1,53.34,58.42,AIN2_N,BUS,,,,"/>
+<approved hash="211,1,33.02,81.28,AIN2_N,BUS,,,,"/>
+<approved hash="211,1,53.34,55.88,AIN2_P,BUS,,,,"/>
+<approved hash="211,1,33.02,83.82,AIN2_P,BUS,,,,"/>
+<approved hash="211,1,53.34,53.34,AIN1_N,BUS,,,,"/>
+<approved hash="211,1,33.02,86.36,AIN1_N,BUS,,,,"/>
+<approved hash="211,1,53.34,50.8,AIN1_P,BUS,,,,"/>
+<approved hash="211,1,33.02,88.9,AIN1_P,BUS,,,,"/>
+<approved hash="211,1,127,60.96,CLK,BUS,,,,"/>
+<approved hash="211,1,162.56,27.94,CLK,BUS,,,,"/>
+<approved hash="211,1,22.86,35.56,AVCM,BUS,,,,"/>
+<approved hash="211,1,12.7,86.36,AVCM,BUS,,,,"/>
+<approved hash="211,1,12.7,83.82,AVCM,BUS,,,,"/>
+<approved hash="211,1,12.7,81.28,AVCM,BUS,,,,"/>
+<approved hash="211,1,12.7,78.74,AVCM,BUS,,,,"/>
+<approved hash="211,1,12.7,76.2,AVCM,BUS,,,,"/>
+<approved hash="211,1,78.74,109.22,RLDREF,BUS,,,,"/>
+<approved hash="211,1,71.12,109.22,RLDOUT,BUS,,,,"/>
+<approved hash="211,1,73.66,109.22,RLDIN,BUS,,,,"/>
+<approved hash="211,1,76.2,109.22,RLDINV,BUS,,,,"/>
+<approved hash="211,1,68.58,35.56,TEST_P,BUS,,,,"/>
+<approved hash="211,1,12.7,101.6,TEST_P,BUS,,,,"/>
+<approved hash="211,1,71.12,35.56,TEST_N,BUS,,,,"/>
+<approved hash="211,1,12.7,99.06,TEST_N,BUS,,,,"/>
+<approved hash="211,1,15.24,35.56,DVDD,BUS,,,,"/>
+<approved hash="211,1,12.7,111.76,!CS5,BUS,,,,"/>
+<approved hash="211,1,198.12,50.8,!CS5,BUS,,,,"/>
+<approved hash="211,1,12.7,121.92,!CS1,BUS,,,,"/>
+<approved hash="211,1,162.56,73.66,!CS1,BUS,,,,"/>
+<approved hash="211,1,12.7,119.38,!CS2,BUS,,,,"/>
+<approved hash="211,1,198.12,25.4,!CS2,BUS,,,,"/>
+<approved hash="211,1,12.7,116.84,!CS3,BUS,,,,"/>
+<approved hash="211,1,162.56,33.02,!CS3,BUS,,,,"/>
+<approved hash="211,1,12.7,114.3,!CS4,BUS,,,,"/>
+<approved hash="211,1,198.12,71.12,!CS4,BUS,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
