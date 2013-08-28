@@ -14105,6 +14105,7 @@ Source: http://www.ti.com/lit/ds/symlink/ads1298.pdf</description>
 <part name="L4" library="fabhack" deviceset="L1210" device="" value="10u"/>
 <part name="L5" library="fabhack" deviceset="L1210" device="" value="10u"/>
 <part name="SJ6" library="jumper" deviceset="SJ" device=""/>
+<part name="SJ7" library="jumper" deviceset="SJ" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14182,7 +14183,8 @@ Source: http://www.ti.com/lit/ds/symlink/ads1298.pdf</description>
 <instance part="SUPPLY1" gate="G$1" x="172.72" y="104.14"/>
 <instance part="L4" gate="G$1" x="154.94" y="116.84" rot="R90"/>
 <instance part="L5" gate="G$1" x="154.94" y="109.22" rot="R90"/>
-<instance part="SJ6" gate="1" x="20.32" y="104.14" rot="R180"/>
+<instance part="SJ6" gate="1" x="20.32" y="106.68" rot="R180"/>
+<instance part="SJ7" gate="1" x="35.56" y="101.6" rot="R180"/>
 </instances>
 <busses>
 <bus name="BUS">
@@ -14983,6 +14985,13 @@ Source: http://www.ti.com/lit/ds/symlink/ads1298.pdf</description>
 <pinref part="IC1" gate="G$1" pin="RLDREF"/>
 <wire x1="78.74" y1="109.22" x2="81.28" y2="106.68" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="12.7" y1="96.52" x2="15.24" y2="99.06" width="0.1524" layer="91"/>
+<label x="12.7" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="SJ7" gate="1" pin="1"/>
+<wire x1="40.64" y1="101.6" x2="40.64" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="99.06" x2="15.24" y2="99.06" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="RLDOUT" class="0">
 <segment>
@@ -14994,6 +15003,12 @@ Source: http://www.ti.com/lit/ds/symlink/ads1298.pdf</description>
 <segment>
 <pinref part="IC1" gate="G$1" pin="RLDIN"/>
 <wire x1="73.66" y1="109.22" x2="76.2" y2="106.68" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="12.7" y1="99.06" x2="15.24" y2="101.6" width="0.1524" layer="91"/>
+<label x="12.7" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="SJ7" gate="1" pin="2"/>
+<wire x1="15.24" y1="101.6" x2="30.48" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RLDINV" class="0">
@@ -15008,8 +15023,8 @@ Source: http://www.ti.com/lit/ds/symlink/ads1298.pdf</description>
 <wire x1="68.58" y1="35.56" x2="71.12" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="12.7" y1="101.6" x2="15.24" y2="104.14" width="0.1524" layer="91"/>
-<label x="12.7" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="12.7" y1="104.14" x2="15.24" y2="106.68" width="0.1524" layer="91"/>
+<label x="12.7" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="SJ6" gate="1" pin="2"/>
 </segment>
 </net>
@@ -15019,11 +15034,11 @@ Source: http://www.ti.com/lit/ds/symlink/ads1298.pdf</description>
 <wire x1="71.12" y1="35.56" x2="73.66" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="12.7" y1="99.06" x2="15.24" y2="101.6" width="0.1524" layer="91"/>
-<label x="12.7" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="12.7" y1="101.6" x2="15.24" y2="104.14" width="0.1524" layer="91"/>
+<label x="12.7" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="SJ6" gate="1" pin="1"/>
-<wire x1="15.24" y1="101.6" x2="25.4" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="101.6" x2="25.4" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="104.14" x2="25.4" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="104.14" x2="25.4" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DVDD" class="0">
