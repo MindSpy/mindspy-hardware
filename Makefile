@@ -11,47 +11,49 @@ TTEXT=Dimension Document
 DRILL=Drills Holes
 MILL=Dimension
 
+OUT=out
+
 all: gbr
 
 clean:
-	rm -fr out/  *#*
+	rm -fr $(OUT)/  *#*
 
-out:
+$(OUT):
 	mkdir out
 
 
-gbr: out bot.gbr top.gbr smb.gbr smt.gbr plt.gbr pth.exc mill.gbr
+gbr: $(OUT) bot.gbr top.gbr smb.gbr smt.gbr plt.gbr pth.exc mill.gbr
 
-bot.gbr: out
-	$(EAGLE) -X -dGERBER_RS274X -s1 -c+ -O+ -oout/$@ $(BOARD) $(BOTTOM)
-top.gbr: out
-	$(EAGLE) -X -dGERBER_RS274X -s1 -c+ -O+ -oout/$@ $(BOARD) $(TOP)
-smb.gbr: out
-	$(EAGLE) -X -dGERBER_RS274X -s1 -c+ -O+ -oout/$@ $(BOARD) $(BMASK)
-smt.gbr: out
-	$(EAGLE) -X -dGERBER_RS274X -s1 -c+ -O+ -oout/$@ $(BOARD) $(TMASK)
-plt.gbr: out
-	$(EAGLE) -X -dGERBER_RS274X -s1 -c+ -O+ -oout/$@ $(BOARD) $(TTEXT)
-pth.exc: out
-	$(EAGLE) -X -dEXCELLON -s1 -c+ -O+ -oout/$@ $(BOARD) $(DRILL)
-mill.gbr: out
-	$(EAGLE) -X -dGERBER_RS274X -s1 -c+ -O+ -oout/$@ $(BOARD) $(MILL)
+bot.gbr: $(OUT)
+	$(EAGLE) -X -dGERBER_RS274X -s1 -c+ -O+ -o$(OUT)/$@ $(BOARD) $(BOTTOM)
+top.gbr: $(OUT)
+	$(EAGLE) -X -dGERBER_RS274X -s1 -c+ -O+ -o$(OUT)/$@ $(BOARD) $(TOP)
+smb.gbr: $(OUT)
+	$(EAGLE) -X -dGERBER_RS274X -s1 -c+ -O+ -o$(OUT)/$@ $(BOARD) $(BMASK)
+smt.gbr: $(OUT)
+	$(EAGLE) -X -dGERBER_RS274X -s1 -c+ -O+ -o$(OUT)/$@ $(BOARD) $(TMASK)
+plt.gbr: $(OUT)
+	$(EAGLE) -X -dGERBER_RS274X -s1 -c+ -O+ -o$(OUT)/$@ $(BOARD) $(TTEXT)
+pth.exc: $(OUT)
+	$(EAGLE) -X -dEXCELLON -s1 -c+ -O+ -o$(OUT)/$@ $(BOARD) $(DRILL)
+mill.gbr: $(OUT)
+	$(EAGLE) -X -dGERBER_RS274X -s1 -c+ -O+ -o$(OUT)/$@ $(BOARD) $(MILL)
 
 
-eps: out bot.eps top.eps smb.eps smt.eps plt.eps pth.eps mill.eps
+eps: $(OUT) bot.eps top.eps smb.eps smt.eps plt.eps pth.eps mill.eps
 
-bot.eps: out
-	$(EAGLE) -X -dEPS -s1 -f- -oout/$@ $(BOARD) $(BOTTOM)
-top.eps: out
-	$(EAGLE) -X -dEPS -s1 -f- -oout/$@ $(BOARD) $(TOP)
-smb.eps: out
-	$(EAGLE) -X -dEPS -s1 -f- -oout/$@ $(BOARD) $(BMASK)
-smt.eps: out
-	$(EAGLE) -X -dEPS -s2 -f- -oout/$@ $(BOARD) $(TMASK)
-plt.eps: out
-	$(EAGLE) -X -dEPS -s1 -f- -oout/$@ $(BOARD) $(TTEXT)
-pth.eps: out
-	$(EAGLE) -X -dEPS -s1 -f- -oout/$@ $(BOARD) $(DRILL)
-mill.eps: out
-	$(EAGLE) -X -dEPS -s1 -f- -oout/$@ $(BOARD) $(MILL)
+bot.eps: $(OUT)
+	$(EAGLE) -X -dEPS -s1 -f- -o$(OUT)/$@ $(BOARD) $(BOTTOM)
+top.eps: $(OUT)
+	$(EAGLE) -X -dEPS -s1 -f- -o$(OUT)/$@ $(BOARD) $(TOP)
+smb.eps: $(OUT)
+	$(EAGLE) -X -dEPS -s1 -f- -o$(OUT)/$@ $(BOARD) $(BMASK)
+smt.eps: $(OUT)
+	$(EAGLE) -X -dEPS -s2 -f- -o$(OUT)/$@ $(BOARD) $(TMASK)
+plt.eps: $(OUT)
+	$(EAGLE) -X -dEPS -s1 -f- -o$(OUT)/$@ $(BOARD) $(TTEXT)
+pth.eps: $(OUT)
+	$(EAGLE) -X -dEPS -s1 -f- -o$(OUT)/$@ $(BOARD) $(DRILL)
+mill.eps: $(OUT)
+	$(EAGLE) -X -dEPS -s1 -f- -o$(OUT)/$@ $(BOARD) $(MILL)
 	
