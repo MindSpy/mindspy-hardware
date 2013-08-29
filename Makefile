@@ -8,7 +8,7 @@ BOTTOM=Bottom Pads Vias
 TMASK=tStop
 BMASK=bStop
 TTEXT=Dimension Document
-DRILL=Drills Holes
+DRILL=Drills Holes Reference
 MILL=Dimension
 
 OUT=out
@@ -16,10 +16,10 @@ OUT=out
 all: gbr
 
 clean:
-	rm -fr $(OUT)/  *#*
+	rm -frv $(OUT)/  *#*
 
 $(OUT):
-	mkdir out
+	mkdir $(OUT)
 
 
 gbr: $(OUT) bot.gbr top.gbr smb.gbr smt.gbr plt.gbr pth.exc mill.gbr
