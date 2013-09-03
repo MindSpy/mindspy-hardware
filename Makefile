@@ -9,7 +9,7 @@ TOP=Top Pads Vias
 BOTTOM=Bottom Pads Vias
 TMASK=tStop
 BMASK=bStop
-TTEXT=Dimension Document
+TTEXT=Document
 DRILL=Drills Holes Reference
 MILL=Dimension
 
