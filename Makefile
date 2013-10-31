@@ -11,7 +11,7 @@ TMASK=tStop
 BMASK=bStop
 TTEXT=Document
 DRILL=Drills Holes Reference
-MILL=Dimension
+MILL=Milling
 
 OUT_DIR=out
 GBR_FILES=bot.gbr top.gbr smb.gbr smt.gbr plt.gbr mill.gbr pth.exc
