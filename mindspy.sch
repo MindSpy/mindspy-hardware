@@ -14058,11 +14058,11 @@ Source: con-hirose.lbr from Bob Starr &amp;lt;rtzaudio@mindspring.com&amp;gt;</d
 <part name="SUPPLY17" library="supply2" deviceset="VCC" device="" value="AVDD"/>
 <part name="SUPPLY19" library="supply2" deviceset="VSS" device="" value="AVSS"/>
 <part name="C6" library="rcl" deviceset="C-EU" device="C0805" value="10u"/>
-<part name="C7" library="rcl" deviceset="C-EU" device="C0805" value="22u"/>
+<part name="C7" library="rcl" deviceset="C-EU" device="C0805" value="18u"/>
 <part name="C8" library="rcl" deviceset="C-EU" device="C0402" value="0.1u"/>
 <part name="C9" library="rcl" deviceset="C-EU" device="C0402" value="1u"/>
 <part name="SUPPLY21" library="supply2" deviceset="DGND" device=""/>
-<part name="C11" library="rcl" deviceset="C-EU" device="C0402" value="1n"/>
+<part name="C11" library="rcl" deviceset="C-EU" device="C0402" value="4n7"/>
 <part name="C12" library="rcl" deviceset="C-EU" device="C0402" value="0.1u"/>
 <part name="C13" library="rcl" deviceset="C-EU" device="C0402" value="1u"/>
 <part name="C14" library="rcl" deviceset="C-EU" device="C0402" value="0.1u"/>
@@ -14092,8 +14092,8 @@ Source: con-hirose.lbr from Bob Starr &amp;lt;rtzaudio@mindspring.com&amp;gt;</d
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="SJ13" library="jumper" deviceset="SJ" device=""/>
 <part name="IC2" library="ti" deviceset="TPS7A49*" device="" technology="01"/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R0402"/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="R0402"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R0402" value="24k"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="R0402" value="10k"/>
 <part name="C2" library="rcl" deviceset="CPOL-EU" device="SMCA" value="10u"/>
 <part name="X4" library="jumper" deviceset="JP3QE" device=""/>
 <part name="SUPPLY1" library="supply2" deviceset="VSS" device="" value="AVSS"/>
@@ -14120,8 +14120,8 @@ Source: con-hirose.lbr from Bob Starr &amp;lt;rtzaudio@mindspring.com&amp;gt;</d
 <instance part="C4" gate="G$1" x="198.12" y="144.78"/>
 <instance part="SUPPLY7" gate="G$1" x="147.32" y="104.14"/>
 <instance part="SUPPLY10" gate="G$1" x="147.32" y="149.86"/>
-<instance part="SUPPLY8" gate="G$1" x="213.36" y="121.92"/>
-<instance part="SUPPLY9" gate="G$1" x="213.36" y="149.86"/>
+<instance part="SUPPLY8" gate="G$1" x="215.9" y="121.92"/>
+<instance part="SUPPLY9" gate="G$1" x="215.9" y="149.86"/>
 <instance part="L1" gate="G$1" x="154.94" y="147.32" rot="R90"/>
 <instance part="L2" gate="G$1" x="154.94" y="124.46" rot="R90"/>
 <instance part="C5" gate="G$1" x="162.56" y="132.08"/>
@@ -14169,9 +14169,9 @@ Source: con-hirose.lbr from Bob Starr &amp;lt;rtzaudio@mindspring.com&amp;gt;</d
 <instance part="SJ13" gate="1" x="137.16" y="147.32"/>
 <instance part="IC2" gate="G$1" x="180.34" y="144.78"/>
 <instance part="IC2" gate="G$2" x="180.34" y="137.16"/>
-<instance part="R1" gate="G$1" x="205.74" y="142.24" rot="MR90"/>
-<instance part="R2" gate="G$1" x="205.74" y="132.08" rot="MR90"/>
-<instance part="C2" gate="G$1" x="213.36" y="132.08"/>
+<instance part="R1" gate="G$1" x="208.28" y="142.24" rot="MR90"/>
+<instance part="R2" gate="G$1" x="208.28" y="132.08" rot="MR90"/>
+<instance part="C2" gate="G$1" x="215.9" y="132.08"/>
 <instance part="X4" gate="-1" x="190.5" y="109.22" rot="R270"/>
 <instance part="X4" gate="-2" x="177.8" y="109.22" rot="R270"/>
 <instance part="X4" gate="-3" x="137.16" y="132.08" rot="R90"/>
@@ -14485,14 +14485,14 @@ Source: con-hirose.lbr from Bob Starr &amp;lt;rtzaudio@mindspring.com&amp;gt;</d
 <junction x="170.18" y="124.46"/>
 <junction x="190.5" y="124.46"/>
 <pinref part="SUPPLY8" gate="G$1" pin="VSS"/>
-<wire x1="190.5" y1="124.46" x2="205.74" y2="124.46" width="0.1524" layer="91"/>
-<junction x="213.36" y="124.46"/>
+<wire x1="190.5" y1="124.46" x2="208.28" y2="124.46" width="0.1524" layer="91"/>
+<junction x="215.9" y="124.46"/>
 <pinref part="C2" gate="G$1" pin="-"/>
-<wire x1="205.74" y1="124.46" x2="213.36" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="124.46" x2="213.36" y2="127" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="124.46" x2="215.9" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="124.46" x2="215.9" y2="127" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="205.74" y1="127" x2="205.74" y2="124.46" width="0.1524" layer="91"/>
-<junction x="205.74" y="124.46"/>
+<wire x1="208.28" y1="127" x2="208.28" y2="124.46" width="0.1524" layer="91"/>
+<junction x="208.28" y="124.46"/>
 <pinref part="L4" gate="G$1" pin="2"/>
 <wire x1="162.56" y1="109.22" x2="162.56" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="116.84" x2="162.56" y2="124.46" width="0.1524" layer="91"/>
@@ -14631,16 +14631,16 @@ Source: con-hirose.lbr from Bob Starr &amp;lt;rtzaudio@mindspring.com&amp;gt;</d
 <segment>
 <pinref part="SUPPLY9" gate="G$1" pin="VCC"/>
 <pinref part="C2" gate="G$1" pin="+"/>
-<wire x1="213.36" y1="134.62" x2="213.36" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="134.62" x2="215.9" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="205.74" y1="147.32" x2="213.36" y2="147.32" width="0.1524" layer="91"/>
-<junction x="213.36" y="147.32"/>
+<wire x1="208.28" y1="147.32" x2="215.9" y2="147.32" width="0.1524" layer="91"/>
+<junction x="215.9" y="147.32"/>
 <pinref part="IC2" gate="G$1" pin="OUT"/>
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="190.5" y1="147.32" x2="198.12" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="147.32" x2="205.74" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="147.32" x2="208.28" y2="147.32" width="0.1524" layer="91"/>
 <junction x="198.12" y="147.32"/>
-<junction x="205.74" y="147.32"/>
+<junction x="208.28" y="147.32"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="AVDD"/>
@@ -15138,12 +15138,12 @@ Source: con-hirose.lbr from Bob Starr &amp;lt;rtzaudio@mindspring.com&amp;gt;</d
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="205.74" y1="137.16" x2="198.12" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="137.16" x2="198.12" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="137.16" x2="193.04" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="137.16" x2="193.04" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="FB"/>
 <wire x1="193.04" y1="144.78" x2="190.5" y2="144.78" width="0.1524" layer="91"/>
-<junction x="205.74" y="137.16"/>
+<junction x="208.28" y="137.16"/>
 <pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="198.12" y1="139.7" x2="198.12" y2="137.16" width="0.1524" layer="91"/>
 <junction x="198.12" y="137.16"/>
