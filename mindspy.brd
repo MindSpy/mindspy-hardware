@@ -125,42 +125,42 @@
 <text x="40.386" y="24.8793" size="0.8128" layer="48" font="vector" rot="R90">ver. 0.2</text>
 <circle x="14.449425" y="34.458275" radius="0.3175" width="0.15" layer="48"/>
 <circle x="11.909425" y="14.29385" radius="0.3175" width="0.15" layer="48"/>
-<text x="9.02335" y="39.671625" size="0.8128" layer="48">RLDREF/IN</text>
-<text x="9.178925" y="19.60245" size="0.8128" layer="48">TESTP/N</text>
+<text x="8.40105" y="39.671625" size="0.8128" layer="48">RLDREF/IN</text>
+<text x="8.867775" y="19.60245" size="0.8128" layer="48">TESTP/N</text>
 <text x="10.26795" y="35.937825" size="0.8128" layer="48" rot="R315">AIN8</text>
 <text x="9.9568" y="22.869525" size="0.8128" layer="48" rot="R45">AIN1</text>
 <text x="20.425890625" y="17.22325625" size="0.8128" layer="48" rot="R315">10u</text>
 <text x="22.51280625" y="19.492440625" size="0.8128" layer="48" rot="R315">18u</text>
-<text x="21.46935" y="18.513425" size="0.8128" layer="48" rot="R315">1u</text>
-<text x="23.556265625" y="20.847046875" size="0.8128" layer="48" rot="R315">1u</text>
+<text x="21.313775" y="18.513425" size="0.8128" layer="48" rot="R315">1u</text>
+<text x="23.400690625" y="20.691471875" size="0.8128" layer="48" rot="R315">1u</text>
 <text x="13.6906" y="22.4028" size="0.8128" layer="48">1u</text>
 <text x="16.024225" y="22.4028" size="0.8128" layer="48" rot="R90">u1</text>
-<text x="16.42650625" y="19.9136" size="0.8128" layer="48" rot="R45">u1</text>
+<text x="16.58208125" y="19.9136" size="0.8128" layer="48" rot="R45">u1</text>
 <text x="15.090775" y="17.11325" size="0.8128" layer="48">10k</text>
 <text x="17.268825" y="14.9352" size="0.8128" layer="48" rot="R90">10n</text>
 <text x="12.446" y="13.535025" size="0.8128" layer="48">24k</text>
 <text x="15.401925" y="11.51255" size="0.8128" layer="48" rot="R90">10u</text>
-<text x="17.4244" y="11.2014" size="0.8128" layer="48">+</text>
-<text x="12.446" y="11.2014" size="0.8128" layer="48">-</text>
-<text x="2.333625" y="13.6906" size="0.8128" layer="48">-</text>
-<text x="7.77875" y="13.6906" size="0.8128" layer="48">+</text>
-<text x="2.644775" y="15.401925" size="0.8128" layer="48">10u</text>
+<text x="17.11325" y="11.045825" size="0.8128" layer="48">+</text>
+<text x="12.601575" y="11.045825" size="0.8128" layer="48">-</text>
+<text x="2.4892" y="13.0683" size="0.8128" layer="48">-</text>
+<text x="7.623175" y="13.223875" size="0.8128" layer="48">+</text>
+<text x="5.6007" y="13.37945" size="0.8128" layer="48" rot="R90">10u</text>
 <text x="5.28955" y="16.646525" size="0.8128" layer="48">10n</text>
 <text x="8.556625" y="10.5791" size="0.8128" layer="48">100uH</text>
 <text x="4.511675" y="10.5791" size="0.8128" layer="48">100uH</text>
-<text x="5.91185" y="5.91185" size="0.8128" layer="48">+</text>
-<text x="11.356975" y="5.756275" size="0.8128" layer="48">-</text>
+<text x="6.53415" y="7.934325" size="0.8128" layer="48">+</text>
+<text x="10.89025" y="7.934325" size="0.8128" layer="48">-</text>
 <text x="9.3345" y="6.067425" size="0.8128" layer="48" rot="R90">10u</text>
 <text x="5.133975" y="1.089025" size="0.8128" layer="48" rot="R90">3V3</text>
 <text x="5.133975" y="3.7338" size="0.8128" layer="48" rot="R90">5V</text>
 <text x="12.75715" y="8.0899" size="0.8128" layer="48">0V</text>
-<text x="14.9352" y="37.804725" size="0.8128" layer="48" rot="R90">1u</text>
+<text x="14.9352" y="39.049325" size="0.8128" layer="48">1u</text>
 <text x="17.891125" y="39.049325" size="0.8128" layer="48">1u</text>
 <text x="21.936075" y="38.89375" size="0.8128" layer="48">1u</text>
 <text x="16.335375" y="39.049325" size="0.8128" layer="48">u1</text>
-<text x="19.758025" y="37.64915" size="0.8128" layer="48">u1</text>
-<text x="20.380325" y="36.560125" size="0.8128" layer="48">u1</text>
-<text x="12.13485" y="36.7157" size="0.8128" layer="48">4n7</text>
+<text x="19.60245" y="37.493575" size="0.8128" layer="48">u1</text>
+<text x="20.5359" y="36.560125" size="0.8128" layer="48">u1</text>
+<text x="12.446" y="36.7157" size="0.8128" layer="48">4n7</text>
 </plain>
 <libraries>
 <library name="fabhack">
