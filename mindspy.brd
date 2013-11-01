@@ -124,7 +124,7 @@
 <text x="42.389425" y="14.455775" size="2.54" layer="48" font="vector" rot="R90">MindSpy</text>
 <text x="40.386" y="24.8793" size="0.8128" layer="48" font="vector" rot="R90">ver. 0.2</text>
 <circle x="14.449425" y="34.458275" radius="0.3175" width="0.15" layer="48"/>
-<circle x="11.909425" y="14.138275" radius="0.3175" width="0.15" layer="48"/>
+<circle x="11.909425" y="14.29385" radius="0.3175" width="0.15" layer="48"/>
 <text x="9.02335" y="39.671625" size="0.8128" layer="48">RLDREF/IN</text>
 <text x="9.178925" y="19.60245" size="0.8128" layer="48">TESTP/N</text>
 <text x="10.26795" y="35.937825" size="0.8128" layer="48" rot="R315">AIN8</text>
@@ -136,7 +136,7 @@
 <text x="13.6906" y="22.4028" size="0.8128" layer="48">1u</text>
 <text x="16.024225" y="22.4028" size="0.8128" layer="48" rot="R90">u1</text>
 <text x="16.42650625" y="19.9136" size="0.8128" layer="48" rot="R45">u1</text>
-<text x="14.00175" y="16.957675" size="0.8128" layer="48" rot="R90">10k</text>
+<text x="15.090775" y="17.11325" size="0.8128" layer="48">10k</text>
 <text x="17.268825" y="14.9352" size="0.8128" layer="48" rot="R90">10n</text>
 <text x="12.446" y="13.535025" size="0.8128" layer="48">24k</text>
 <text x="15.401925" y="11.51255" size="0.8128" layer="48" rot="R90">10u</text>
@@ -154,12 +154,12 @@
 <text x="5.133975" y="1.089025" size="0.8128" layer="48" rot="R90">3V3</text>
 <text x="5.133975" y="3.7338" size="0.8128" layer="48" rot="R90">5V</text>
 <text x="12.75715" y="8.0899" size="0.8128" layer="48">0V</text>
-<text x="14.9352" y="37.9603" size="0.8128" layer="48" rot="R90">1u</text>
+<text x="14.9352" y="37.804725" size="0.8128" layer="48" rot="R90">1u</text>
 <text x="17.891125" y="39.049325" size="0.8128" layer="48">1u</text>
 <text x="21.936075" y="38.89375" size="0.8128" layer="48">1u</text>
 <text x="16.335375" y="39.049325" size="0.8128" layer="48">u1</text>
-<text x="19.9136" y="37.9603" size="0.8128" layer="48">u1</text>
-<text x="20.5359" y="36.560125" size="0.8128" layer="48">u1</text>
+<text x="19.758025" y="37.64915" size="0.8128" layer="48">u1</text>
+<text x="20.380325" y="36.560125" size="0.8128" layer="48">u1</text>
 <text x="12.13485" y="36.7157" size="0.8128" layer="48">4n7</text>
 </plain>
 <libraries>
@@ -2378,7 +2378,7 @@ design rules under a new name.</description>
 <wire x1="18.561925" y1="14.440775" x2="18.894425" y2="14.773275" width="0.6096" layer="1" curve="90"/>
 <wire x1="16.584425" y1="14.440775" x2="15.836925" y2="14.440775" width="0.6096" layer="1"/>
 <wire x1="15.836925" y1="14.440775" x2="15.875" y2="14.558275" width="0.6096" layer="1" curve="-90"/>
-<via x="20.164425" y="37.334825" extent="1-16" drill="0.3"/>
+<via x="20.164425" y="37.17925" extent="1-16" drill="0.3"/>
 <wire x1="17.644425" y1="35.713275" x2="17.644425" y2="36.025775" width="0.254" layer="1"/>
 <via x="15.401925" y="20.805775" extent="1-16" drill="0.3"/>
 <wire x1="17.644425" y1="24.313275" x2="17.144425" y2="24.313275" width="0.254" layer="1"/>
@@ -2420,7 +2420,7 @@ design rules under a new name.</description>
 <wire x1="17.144425" y1="24.313275" x2="17.144425" y2="23.35385" width="0.254" layer="1"/>
 <wire x1="17.144425" y1="23.35385" x2="16.678275" y2="23.043275" width="0.254" layer="1" curve="-90"/>
 <wire x1="14.605" y1="37.15385" x2="14.605875" y2="37.154725" width="0.254" layer="1" curve="-90"/>
-<wire x1="20.144425" y1="37.314825" x2="20.164425" y2="37.334825" width="0.254" layer="1" curve="-90"/>
+<wire x1="20.144425" y1="37.314825" x2="20.164425" y2="37.17925" width="0.254" layer="1" curve="-90"/>
 <contactref element="X1" pad="4"/>
 <contactref element="X1" pad="10"/>
 <contactref element="X1" pad="22"/>
@@ -2817,16 +2817,6 @@ design rules under a new name.</description>
 <wire x1="34.53765" y1="25.098375" x2="35.994975" y2="26.5557" width="0.2" layer="16"/>
 </signal>
 </signals>
-<errors>
-<approved hash="19,1,83664434f59d6bcf"/>
-<approved hash="19,1,3401abde2075e6aa"/>
-<approved hash="5,1,7a171725257f8a7e"/>
-<approved hash="5,1,b103b7dd24f972b9"/>
-<approved hash="5,1,e7b4a4f2c48666a4"/>
-<approved hash="5,1,37ae9562acb3a769"/>
-<approved hash="5,1,e944ec2c8e119b53"/>
-<approved hash="5,1,bc67e06980399e37"/>
-</errors>
 </board>
 </drawing>
 </eagle>
