@@ -4,6 +4,8 @@
 
 BOARD=mindspy.brd
 EAGLE=eagle
+PAN=/home/pborky/opt/gerbmerge/bin/gerbmerge --no-trim-gerber --no-trim-excellon --search-timeout=10 
+PAN_CFG=mindspy.cfg
 
 TOP=Top Pads Vias
 BOTTOM=Bottom Pads Vias
@@ -14,8 +16,10 @@ DRILL=Drills Holes Reference
 MILL=Milling
 
 OUT_DIR=out
+PAN_DIR=$(OUT_DIR)/pan
 GBR_FILES=bot.gbr top.gbr smb.gbr smt.gbr plt.gbr mill.gbr pth.exc
 OUT_FILES=$(GBR_FILES:%=$(OUT_DIR)/%)
+PAN_FILES=$(GBR_FILES:%=$(PAN_DIR)/%)
 
 
 all: gbr.zip
@@ -26,8 +30,14 @@ clean:
 $(OUT_DIR):
 	mkdir $(OUT_DIR)
 
-gbr.zip: $(OUT_FILES)
-	zip -D $@ $(OUT_FILES)
+$(PAN_DIR):
+	mkdir $(PAN_DIR)
+
+panelize: $(OUT_FILES) $(PAN_DIR)
+	$(PAN) $(PAN_CFG)
+
+gbr.zip: panelize
+	zip -D -j $@ $(PAN_FILES)
 
 $(OUT_DIR)/bot.gbr: $(OUT_DIR)
 	$(EAGLE) -X -dGERBER_RS274X -s1 -c+ -O+ -o$@ $(BOARD) $(BOTTOM)
